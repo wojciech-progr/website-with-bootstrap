@@ -11,6 +11,14 @@ body {
 }
 
 nav {
+	.navbar-toggler {
+		padding: 10px 15px;
+	}
+
+	.navbar-brand {
+		font-weight: bold;
+	}
+
 	text-transform: uppercase;
 	.nav-link,
 	.navbar-nav .nav-link.show,
