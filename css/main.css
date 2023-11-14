@@ -12,9 +12,16 @@ body {
 nav {
 	text-transform: uppercase;
 	.nav-link,
-	.navbar-nav .nav-link.active,
 	.navbar-nav .nav-link.show,
-	.navbar-brand {
+	.navbar-brand,
+	.fa-bars {
 		color: #fff;
+	}
+
+	.nav-link:focus,
+	.nav-link:hover,
+	.navbar-nav .nav-link.active,
+	.navbar-nav .nav-link.show {
+		color: #039dff;
 	}
 }
