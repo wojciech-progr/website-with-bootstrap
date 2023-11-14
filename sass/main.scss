@@ -1,3 +1,5 @@
+@use './colors' as *;
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -6,4 +8,21 @@
 
 body {
 	background-color: #333;
+}
+
+nav {
+	text-transform: uppercase;
+	.nav-link,
+	.navbar-nav .nav-link.show,
+	.navbar-brand,
+	.fa-bars {
+		color: $white;
+	}
+
+	.nav-link:focus,
+	.nav-link:hover,
+	.navbar-nav .nav-link.active,
+	.navbar-nav .nav-link.show {
+		color: $main-color;
+	}
 }
