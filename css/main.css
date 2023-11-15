@@ -74,6 +74,14 @@ header.hero-img .fa-chevron-down {
   left: 50%;
 }
 
+@media (min-width: 768px) {
+  .hero-text h1 {
+    font-size: 42px;
+  }
+  .hero-text p {
+    font-size: 20px;
+  }
+}
 @media (min-width: 1200px) {
   header.hero-img {
     background-image: url("../img/playstation-big.jpg");
