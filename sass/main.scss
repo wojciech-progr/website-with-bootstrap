@@ -18,6 +18,18 @@ body {
 	background-color: rgba(0, 0, 0, 0.8);
 }
 
+.section-title {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.underline {
+	height: 4px;
+	background-color: $main-color;
+	max-width: 100px;
+	margin: 0 auto 40px;
+}
+
 nav {
 	text-transform: uppercase;
 	z-index: 5;
@@ -86,6 +98,22 @@ header.hero-img {
 		color: $white;
 		transition: translate(-50%);
 		left: 50%;
+	}
+}
+
+.aboutus {
+	i {
+		margin-top: 20px;
+		font-size: 30px;
+	}
+
+	.aboutus-card-title {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+
+	.aboutus-card-text {
+		font-size: 14px;
 	}
 }
 
