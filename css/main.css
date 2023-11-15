@@ -12,9 +12,14 @@ body {
   color: #039dff;
 }
 
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 nav {
   text-transform: uppercase;
   z-index: 5;
+  transition: 0.6s;
   text-transform: uppercase;
 }
 nav .navbar-toggler {
