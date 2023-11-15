@@ -8,6 +8,10 @@ body {
   background-color: #333;
 }
 
+html {
+  scroll-padding-top: 74px;
+}
+
 .blue-text {
   color: #039dff;
 }
@@ -115,6 +119,11 @@ header.hero-img .fa-chevron-down {
   }
   .hero-text p {
     font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  html {
+    scroll-padding-top: 72px;
   }
 }
 @media (min-width: 1200px) {
