@@ -65,6 +65,14 @@ header.hero-img .hero-text {
   flex-direction: column;
   height: 100%;
 }
+header.hero-img .fa-chevron-down {
+  position: absolute;
+  bottom: 20px;
+  font-size: 30px;
+  color: #fff;
+  transition: translate(-50%);
+  left: 50%;
+}
 
 @media (min-width: 1200px) {
   header.hero-img {
