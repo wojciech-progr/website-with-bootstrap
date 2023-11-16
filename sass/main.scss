@@ -229,6 +229,51 @@ header.hero-img {
 	}
 }
 
+.team {
+	position: relative;
+	background-image: url('../img/team/background.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
+
+	.section-title {
+		color: $light-gray;
+	}
+
+	.team-shadow {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.7);
+		z-index: -5;
+	}
+
+	.card {
+		transition: scale 0.3s;
+
+		img {
+			height: 300px;
+			object-fit: cover;
+		}
+
+		i {
+			padding: 10px;
+		}
+	}
+
+	.card:hover {
+		scale: 0.96;
+	}
+
+	.card-title {
+		margin-bottom: 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+
 @media (min-width: 768px) {
 	.hero-text {
 		h1 {
