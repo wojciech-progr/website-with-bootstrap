@@ -140,6 +140,9 @@ header.hero-img .fa-chevron-down {
   font-size: 24px;
 }
 
+.portfolio .card-group img {
+  max-height: 168px;
+}
 .portfolio .carousel-item {
   height: 600px;
 }

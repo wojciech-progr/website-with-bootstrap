@@ -161,6 +161,10 @@ header.hero-img {
 }
 
 .portfolio {
+	.card-group img {
+		max-height: 168px;
+	}
+
 	.carousel-item {
 		height: 600px;
 	}
