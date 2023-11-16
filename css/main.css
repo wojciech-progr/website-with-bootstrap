@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #333;
+  background-color: #ebecf2;
 }
 
 html {
@@ -154,6 +154,10 @@ header.hero-img .fa-chevron-down {
 }
 .portfolio .carousel-indicators {
   padding-bottom: 20px;
+}
+
+.prices .price-box {
+  margin: 20px;
 }
 
 @media (min-width: 768px) {

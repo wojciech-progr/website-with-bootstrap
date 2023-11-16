@@ -7,7 +7,7 @@
 }
 
 body {
-	background-color: #333;
+	background-color: $bg-color;
 }
 
 html {
@@ -178,6 +178,12 @@ header.hero-img {
 
 	.carousel-indicators {
 		padding-bottom: 20px;
+	}
+}
+
+.prices {
+	.price-box {
+		margin: 20px;
 	}
 }
 
