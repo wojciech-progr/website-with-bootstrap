@@ -146,6 +146,18 @@ header.hero-img {
 		background-color: rgba(0, 0, 0, 0.5);
 		z-index: -5;
 	}
+
+	.aboutus-hero-item {
+		margin: 10px 0;
+
+		i {
+			font-size: 36px;
+		}
+
+		.aboutus-hero-title {
+			font-size: 24px;
+		}
+	}
 }
 
 @media (min-width: 768px) {
@@ -163,6 +175,10 @@ header.hero-img {
 @media (min-width: 992px) {
 	html {
 		scroll-padding-top: 72px;
+	}
+
+	.aboutus-hero {
+		background-image: url('../img/technology-big.jpg');
 	}
 }
 

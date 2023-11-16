@@ -130,6 +130,15 @@ header.hero-img .fa-chevron-down {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: -5;
 }
+.aboutus-hero .aboutus-hero-item {
+  margin: 10px 0;
+}
+.aboutus-hero .aboutus-hero-item i {
+  font-size: 36px;
+}
+.aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+  font-size: 24px;
+}
 
 @media (min-width: 768px) {
   .hero-text h1 {
@@ -142,6 +151,9 @@ header.hero-img .fa-chevron-down {
 @media (min-width: 992px) {
   html {
     scroll-padding-top: 72px;
+  }
+  .aboutus-hero {
+    background-image: url("../img/technology-big.jpg");
   }
 }
 @media (min-width: 1200px) {
