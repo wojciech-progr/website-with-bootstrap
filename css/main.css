@@ -158,6 +158,40 @@ header.hero-img .fa-chevron-down {
 
 .prices .price-box {
   margin: 20px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  transition: scale 0.5s;
+}
+.prices .price-box span {
+  font-weight: bold;
+}
+.prices .price-box i {
+  padding: 0 5px;
+  font-size: 24px;
+}
+.prices .price-box button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.prices .price-box .price-tag {
+  font-weight: bold;
+  font-size: 30px;
+}
+.prices .price-info {
+  margin-top: 30px;
+}
+.prices .price-info a {
+  text-decoration: none;
+}
+.prices .price-box:hover {
+  scale: 1.05;
+}
+.prices .price-title {
+  color: #039dff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 @media (min-width: 768px) {
