@@ -278,6 +278,26 @@ header.hero-img {
 	}
 }
 
+.achievements-list {
+	padding: 20px 0;
+
+	i {
+		padding: 10px;
+		font-size: 48px;
+		color: $white;
+		text-shadow: 0 0 5px rgb(0, 0, 0);
+	}
+
+	.achievement-number {
+		font-size: 22px;
+	}
+
+	.acheviement-text {
+		font-size: 13px;
+		text-transform: uppercase;
+	}
+}
+
 @media (min-width: 768px) {
 	.hero-text {
 		h1 {
