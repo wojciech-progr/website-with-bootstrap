@@ -49,6 +49,7 @@
 
 body {
   background-color: #ebecf2;
+  overflow-x: hidden;
 }
 
 html {
