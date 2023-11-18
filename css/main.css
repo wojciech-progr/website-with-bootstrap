@@ -150,9 +150,6 @@ header.hero-img .fa-chevron-down {
 .aboutus .aboutus-card-text {
   font-size: 14px;
 }
-.aboutus .aboutus-hover {
-  transition: color 0.3s;
-}
 .aboutus .aboutus-hover:hover {
   color: #039dff;
 }
